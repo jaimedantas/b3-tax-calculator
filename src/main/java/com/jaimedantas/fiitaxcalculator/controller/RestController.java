@@ -1,5 +1,6 @@
 package com.jaimedantas.fiitaxcalculator.controller;
 
+import com.jaimedantas.fiitaxcalculator.business.TaxCalculator;
 import com.jaimedantas.fiitaxcalculator.model.FiiData;
 import com.jaimedantas.fiitaxcalculator.model.FiiTax;
 import org.slf4j.Logger;
@@ -19,8 +20,9 @@ public class RestController {
     @PostMapping(path="/fii")
     public @ResponseBody FiiTax calculateFiiTaxes (@RequestBody FiiData fii) {
         logger.info(fii.toString());
+        TaxCalculator taxCalculator = new TaxCalculator();
 
-        FiiTax result = new FiiTax(new BigDecimal(111),100,new BigDecimal(11));
+        FiiTax result = taxCalculator.calculeFiiTaxes(fii);
 
         logger.info(result.toString());
         return result;

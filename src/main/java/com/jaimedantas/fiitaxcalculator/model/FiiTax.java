@@ -1,6 +1,5 @@
 package com.jaimedantas.fiitaxcalculator.model;
 
-import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -12,6 +11,10 @@ import java.math.BigDecimal;
 @AllArgsConstructor
 public class FiiTax {
     BigDecimal totalTaxes;
-    int totalProfitPercentage;
+    BigDecimal totalProfitPercentage;
     BigDecimal totalProfitValue;
+    BigDecimal liquidacaoFee;
+    BigDecimal emolumentosFee;
+    BigDecimal IRRFFee;
+    BigDecimal fixTax;
 }
