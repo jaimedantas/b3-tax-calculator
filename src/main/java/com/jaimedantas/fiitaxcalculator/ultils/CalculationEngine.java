@@ -14,7 +14,7 @@ public class CalculationEngine {
     }
 
     public static BigDecimal add(BigDecimal arg1, BigDecimal arg2, BigDecimal arg3){
-        return add(arg1.add(arg2).setScale(2, RoundingMode.HALF_UP), arg3);
+        return add(arg1.add(arg2), arg3);
     }
 
     public static BigDecimal add(BigDecimal arg1, BigDecimal arg2, BigDecimal arg3, BigDecimal arg4){
@@ -23,6 +23,10 @@ public class CalculationEngine {
 
     public static BigDecimal subtract(BigDecimal arg1, BigDecimal arg2){
         return arg1.subtract(arg2).setScale(2, RoundingMode.HALF_UP);
+    }
+
+    public static BigDecimal subtract(BigDecimal arg1, BigDecimal arg2, BigDecimal arg3){
+        return subtract(arg1.subtract(arg2), arg3);
     }
 
     public static BigDecimal divide(BigDecimal arg1, BigDecimal arg2){

@@ -24,8 +24,8 @@ class TaxCalculatorTest {
         fiiData.setTotalValueSold(new BigDecimal("3013.71"));
 
         BigDecimal expectedTotalProfitPercentage = new BigDecimal("0.34");
-        BigDecimal expectedTotalProfitValue = new BigDecimal("713.40");
-        BigDecimal expectedTTotalTaxes = new BigDecimal("179.31");
+        BigDecimal expectedTotalProfitValue = new BigDecimal("713.55");
+        BigDecimal expectedTDarf = new BigDecimal("178.39");
 
 
         TaxCalculator taxCalculator = new TaxCalculator();
@@ -34,7 +34,7 @@ class TaxCalculatorTest {
 
         assertEquals(fiiTax.getTotalProfitPercentage(), expectedTotalProfitPercentage);
         assertEquals(fiiTax.getTotalProfitValue(), expectedTotalProfitValue);
-        assertEquals(fiiTax.getTotalTaxes(), expectedTTotalTaxes);
+        assertEquals(fiiTax.getFixTax(), expectedTDarf);
 
     }
 
