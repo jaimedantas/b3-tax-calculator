@@ -12,3 +12,13 @@ profit from a FII transaction in the [B3](http://www.b3.com.br/en_us/)
 ###### Documentation:
 `http://localhost:8081/swagger-ui.html`
 
+
+###### Build:
+```
+mvn clean install
+```
+
+###### Run:
+```
+java -jar fii-tax-calculator-0.0.1-SNAPSHOT.jar
+```
