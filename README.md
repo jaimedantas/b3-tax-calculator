@@ -9,6 +9,18 @@ profit from a FII transaction in the [B3](http://www.b3.com.br/en_us/)
 * Swagger
 * JUnit
 
-###### Documentation:
+## Documentation:
+You can browser through the documentation for this API using Swagger:
+
 `http://localhost:8081/swagger-ui.html`
 
+
+## Build:
+```
+mvn clean install
+```
+
+## Run:
+```
+java -jar fii-tax-calculator-0.0.1-SNAPSHOT.jar
+```
