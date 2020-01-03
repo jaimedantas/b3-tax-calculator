@@ -9,6 +9,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.math.BigDecimal;
+import java.util.Objects;
+
 
 @Controller
 @RequestMapping(path="/tax")
@@ -17,8 +19,14 @@ public class RestController {
     private static final Logger logger = LoggerFactory.getLogger(RestController.class);
 
     @CrossOrigin(origins = "*")
-    @PostMapping(path="/fii")
-    public @ResponseBody FiiTax calculateFiiTaxes (@RequestBody FiiData fii) {
+    @PostMapping(path="/fii", produces = "application/json", consumes = "application/json")
+    public @ResponseBody FiiTax calculateFiiTaxes (@RequestBody FiiData fii) throws Throwable {
+
+        //not implement yet
+        if (fii.getTotalValueBought().equals(new BigDecimal(0)) && fii.getTotalValueSold().equals(new BigDecimal(0))){
+            throw new Throwable("Unit price not implemented yet");
+        }
+
         logger.info(fii.toString());
         TaxCalculator taxCalculator = new TaxCalculator();
 
@@ -26,12 +34,7 @@ public class RestController {
 
         logger.info(result.toString());
         return result;
-    }
 
-    @CrossOrigin(origins = "*")
-    @GetMapping(path="/test")
-    public @ResponseBody String test () {
-        return "test";
     }
 
 }

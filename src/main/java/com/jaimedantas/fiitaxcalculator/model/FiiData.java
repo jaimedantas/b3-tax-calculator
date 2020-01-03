@@ -10,16 +10,14 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 @AllArgsConstructor
 public class FiiData {
+
     String name;
 
     long quantityBought;
     long quantitySold;
 
     BigDecimal purchasePriceUnit;
-    BigDecimal purchaseTransactionFees;
-
-    BigDecimal soldPrice;
-    BigDecimal soldTransactionFees;
+    BigDecimal soldPriceUnit;
 
     BigDecimal totalValueBought;
     BigDecimal totalValueSold;

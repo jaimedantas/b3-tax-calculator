@@ -10,11 +10,13 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 @AllArgsConstructor
 public class FiiTax {
+
     BigDecimal totalTaxes;
     BigDecimal totalProfitPercentage;
     BigDecimal totalProfitValue;
     BigDecimal liquidacaoFee;
     BigDecimal emolumentosFee;
     BigDecimal IRRFFee;
-    BigDecimal fixTax;
+    BigDecimal fixedTax;
+
 }

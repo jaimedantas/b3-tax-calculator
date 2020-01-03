@@ -11,15 +11,13 @@ import static org.junit.jupiter.api.Assertions.*;
 class TaxCalculatorTest {
 
     @Test
-    void shouldCalculateTaxForFii() {
+    void shouldCalculateTaxForFiiXPLG11() {
         FiiData fiiData = new FiiData();
         fiiData.setName("XPLG11");
         fiiData.setPurchasePriceUnit(new BigDecimal("101"));
-        fiiData.setPurchaseTransactionFees(new BigDecimal("1.4"));
         fiiData.setQuantityBought(200l);
         fiiData.setQuantitySold(200l);
-        fiiData.setSoldPrice(new BigDecimal("130.20"));
-        fiiData.setSoldTransactionFees(new BigDecimal("14.9"));
+        fiiData.setSoldPriceUnit(new BigDecimal("130.20"));
         fiiData.setTotalValueBought(new BigDecimal("2121.00"));
         fiiData.setTotalValueSold(new BigDecimal("3013.71"));
 
@@ -32,9 +30,35 @@ class TaxCalculatorTest {
 
         FiiTax fiiTax = taxCalculator.calculeFiiTaxes(fiiData);
 
-        assertEquals(fiiTax.getTotalProfitPercentage(), expectedTotalProfitPercentage);
-        assertEquals(fiiTax.getTotalProfitValue(), expectedTotalProfitValue);
-        assertEquals(fiiTax.getFixTax(), expectedTDarf);
+        assertEquals(expectedTotalProfitPercentage, fiiTax.getTotalProfitPercentage());
+        assertEquals(expectedTotalProfitValue, fiiTax.getTotalProfitValue());
+        assertEquals(expectedTDarf, fiiTax.getFixedTax());
+
+    }
+
+    @Test
+    void shouldCalculateTaxForFiiXPML11() {
+        FiiData fiiData = new FiiData();
+        fiiData.setName("XPML11");
+        fiiData.setPurchasePriceUnit(new BigDecimal("109"));
+        fiiData.setQuantityBought(47);
+        fiiData.setQuantitySold(47);
+        fiiData.setSoldPriceUnit(new BigDecimal("138.99"));
+        fiiData.setTotalValueBought(new BigDecimal("5168.59"));
+        fiiData.setTotalValueSold(new BigDecimal("6532.53"));
+
+        BigDecimal expectedTotalProfitPercentage = new BigDecimal("0.21");
+        BigDecimal expectedTotalProfitValue = new BigDecimal("1089.64");
+        BigDecimal expectedTDarf = new BigDecimal("272.41");
+
+
+        TaxCalculator taxCalculator = new TaxCalculator();
+
+        FiiTax fiiTax = taxCalculator.calculeFiiTaxes(fiiData);
+
+        assertEquals(expectedTotalProfitPercentage, fiiTax.getTotalProfitPercentage());
+        assertEquals(expectedTotalProfitValue, fiiTax.getTotalProfitValue());
+        assertEquals(expectedTDarf, fiiTax.getFixedTax());
 
     }
 

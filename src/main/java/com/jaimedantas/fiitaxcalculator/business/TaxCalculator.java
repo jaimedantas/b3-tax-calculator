@@ -10,6 +10,7 @@ import java.math.BigDecimal;
 public class TaxCalculator {
 
     public FiiTax calculeFiiTaxes(FiiData fiiData){
+
         FiiTax result = new FiiTax();
 
         BigDecimal netProfitValue = CalculationEngine.subtract(fiiData.getTotalValueSold(), fiiData.getTotalValueBought());
@@ -23,7 +24,7 @@ public class TaxCalculator {
         result.setEmolumentosFee(emolumentosTaxes);
         result.setLiquidacaoFee(liquidacaoTaxes);
         result.setIRRFFee(IRRFTaxes);
-        result.setFixTax(fixTax);
+        result.setFixedTax(fixTax);
 
         BigDecimal totalProfit = CalculationEngine.subtract(netProfitValue, totalTaxes, fixTax);
         BigDecimal totalProfitPercentage = CalculationEngine.divide(totalProfit, fiiData.getTotalValueBought());
