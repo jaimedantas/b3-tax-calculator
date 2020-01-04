@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>FII Tax Calculator</title>
+    <style>
+        form {
+            margin: 0 auto;
+            width: 450px;
+            padding: 1em;
+            border: 1px solid #ccc;
+            border-radius: 1em;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        form li + li {
+            margin-top: 1em;
+        }
+        label {
+            display: inline-block;
+            width: 110px;
+            text-align: right;
+        }
+        input,
+        textarea {
+            font: 1em sans-serif;
+            width: 300px;
+            box-sizing: border-box;
+            border: 1px solid #999;
+        }
+        input:focus,
+        textarea:focus {
+            border-color: #000;
+        }
+
+        .button {
+            padding-left: 90px;
+        }
+
+        button {
+            margin-left: 7.9em;
+        }
+
+        .aligncenter {
+            text-align: center;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<p class="aligncenter">
+    <img src="images/logo.png" alt="FII Tax Calculator for BM&FBOVESPA" style="width:300px;height:150px;">
+</p>
+
+<form id="postData" method="post">
+    <p class="aligncenter">
+    <select>
+        <option value="FII">Real Estate Fund (B3: FII)</option>
+        <option value="STOCK">Stock (B3: Ação)</option>
+    </select>
+    </p>
+    <p align="center">Please fill the form and click in Calculate</p>
+
+    <ul>
+        <li>
+            <label for="name">FII Name:</label>
+            <input type="text" id="name" name="name" />
+        </li>
+
+        <li>
+            <label for="totalValueBought">Purchase Value:</label>
+            <input type="number" step="0.01" id="totalValueBought" name="totalValueBought" />
+        </li>
+        <li>
+            <label for="totalValueSold">Sold Value:</label>
+            <input type="number" step="0.01" id="totalValueSold" name="totalValueSold" />
+        </li>
+
+        <li class="button">
+<!--            <input value="Submit" type="submit" onclick="function()">-->
+
+
+            <button type="submit">Calculate Taxes</button>
+
+        </li>
+
+        <h3 align="center">Profit:</h3>
+        <ul id="darf-value"></ul>
+        <ul id="profit-percentage"></ul>
+        <ul id="profit-total"></ul>
+
+        <h3 align="center">Taxes:</h3>
+        <ul id="liquidacao-fee"></ul>
+        <ul id="emolumentos-fee"></ul>
+        <ul id="irrf-fee"></ul>
+
+
+        <p align="center"><a href="http://servicos.receita.fazenda.gov.br/Servicos/sicalcweb/default.asp?TipTributo=1&FormaPagto=1" target="_blank" > Issue Boleto</a></p>
+
+
+    </ul>
+
+
+</form>
+
+<p align="center">© Jaime Dantas | <a href="https://github.com/jaimedantas/fii-tax-calculator" target="_blank" >B3 Tax Calculator</a></p>
+
+<script>
+    document.getElementById('postData').addEventListener('submit', postData);
+
+    function createNode(element) {
+        return document.createElement(element); // Create the type of element you pass in the parameters
+    }
+
+    function append(parent, el) {
+        return parent.appendChild(el); // Append the second parameter(element) to the first one
+    }
+
+    const ul = document.getElementById('authors'); // Get the list where we will place our authors
+
+
+    function postData(event){
+        event.preventDefault();
+
+        let nameValue = document.getElementById('name').value;
+        let totalValueBoughtValue = document.getElementById('totalValueBought').value;
+        let totalValueSoldValue = document.getElementById('totalValueSold').value;
+
+
+        fetch('http://192.168.15.20:8081/tax/fii', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body:JSON.stringify({name:nameValue, totalValueBought:totalValueBoughtValue, totalValueSold:totalValueSoldValue})
+        }).then((res) => res.json())
+            .then(res => {
+                const DARF_KEY = document.querySelector('#darf-value');
+                const PROFIT_PERCENTAGE_KEY = document.querySelector('#profit-percentage');
+                const PROFIT_TOTAL_KEY = document.querySelector('#profit-total');
+                const LIQUIDACAO_KEY = document.querySelector('#liquidacao-fee');
+                const EMOLUMENTOS_KEY = document.querySelector('#emolumentos-fee');
+                const IRRF_KEY = document.querySelector('#irrf-fee');
+
+                const DARF_temp = '<p>DARF Value: $' + res.fixedTax + '</p>';
+                const TOTAL_PROFIT_P_temp = '<p>Profit (%) : ' + res.totalProfitPercentage*100 + '%</p>';
+                const TOTAL_PROFIT_T_temp = '<p>Total Profit : $' + res.totalProfitValue + '</p>';
+                const LIQUIDACAO_temp = '<p>Liquidacao Fee: $' + res.liquidacaoFee + '</p>';
+                const EMOLUMENTOS_temp = '<p>Emolumentos Fee: $' + res.emolumentosFee + '</p>';
+                const IRRF_temp = '<p>IRRF fee: $' + res.irrffee + '</p>';
+
+                DARF_KEY.innerHTML = DARF_temp;
+                PROFIT_PERCENTAGE_KEY.innerHTML = TOTAL_PROFIT_P_temp;
+                PROFIT_TOTAL_KEY.innerHTML = TOTAL_PROFIT_T_temp;
+                LIQUIDACAO_KEY.innerHTML = LIQUIDACAO_temp;
+                EMOLUMENTOS_KEY.innerHTML = EMOLUMENTOS_temp;
+                IRRF_KEY.innerHTML = IRRF_temp;
+
+
+                console.log(DARF_KEY);
+            })
+            .catch(err => console.log(err));
+
+    }
+
+
+</script>
+
+
+
+</body>
+</html>

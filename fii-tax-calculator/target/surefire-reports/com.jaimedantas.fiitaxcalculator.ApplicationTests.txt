@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.jaimedantas.fiitaxcalculator.ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.731 s - in com.jaimedantas.fiitaxcalculator.ApplicationTests
