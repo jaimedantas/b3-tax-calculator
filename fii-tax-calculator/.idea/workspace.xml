@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0f3cef84-9a38-42b2-a704-b5488a1053fb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/fii-tax-calculator/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="fii-tax-calculator" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="11" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VBHqemTgFTJh40cxcV8pUuxmzZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fii-tax-calculator" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/documentation" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Fii Tax">
+    <configuration name="CalculationEngineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fii-tax-calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jaimedantas.fiitaxcalculator.ultils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jaimedantas.fiitaxcalculator.ultils" />
+      <option name="MAIN_CLASS_NAME" value="com.jaimedantas.fiitaxcalculator.ultils.CalculationEngineTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculationEngineTest.shouldDivideTwoBigDecimals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fii-tax-calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jaimedantas.fiitaxcalculator.ultils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jaimedantas.fiitaxcalculator.ultils" />
+      <option name="MAIN_CLASS_NAME" value="com.jaimedantas.fiitaxcalculator.ultils.CalculationEngineTest" />
+      <option name="METHOD_NAME" value="shouldDivideTwoBigDecimals" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaxCalculatorTest.shouldCalculateTaxForFii" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fii-tax-calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jaimedantas.fiitaxcalculator.business.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jaimedantas.fiitaxcalculator.business" />
+      <option name="MAIN_CLASS_NAME" value="com.jaimedantas.fiitaxcalculator.business.TaxCalculatorTest" />
+      <option name="METHOD_NAME" value="shouldCalculateTaxForFii" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaxCalculatorTest.shouldCalculateTaxForFiiXPML11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fii-tax-calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jaimedantas.fiitaxcalculator.business.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jaimedantas.fiitaxcalculator.business" />
+      <option name="MAIN_CLASS_NAME" value="com.jaimedantas.fiitaxcalculator.business.TaxCalculatorTest" />
+      <option name="METHOD_NAME" value="shouldCalculateTaxForFiiXPML11" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Fii Tax" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="fii-tax-calculator" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jaimedantas.fiitaxcalculator.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.CalculationEngineTest" />
+      <item itemvalue="JUnit.CalculationEngineTest.shouldDivideTwoBigDecimals" />
+      <item itemvalue="JUnit.TaxCalculatorTest.shouldCalculateTaxForFii" />
+      <item itemvalue="JUnit.TaxCalculatorTest.shouldCalculateTaxForFiiXPML11" />
+      <item itemvalue="Spring Boot.Fii Tax" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TaxCalculatorTest.shouldCalculateTaxForFiiXPML11" />
+        <item itemvalue="JUnit.TaxCalculatorTest.shouldCalculateTaxForFii" />
+        <item itemvalue="JUnit.CalculationEngineTest" />
+        <item itemvalue="JUnit.CalculationEngineTest.shouldDivideTwoBigDecimals" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f3cef84-9a38-42b2-a704-b5488a1053fb" name="Default Changelist" comment="" />
+      <created>1576719008289</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576719008289</updated>
+      <workItem from="1576719011278" duration="175000" />
+      <workItem from="1576719216060" duration="196000" />
+      <workItem from="1576719770469" duration="3973000" />
+      <workItem from="1576889327948" duration="69000" />
+      <workItem from="1576889549365" duration="1499000" />
+      <workItem from="1577151723841" duration="27000" />
+      <workItem from="1578090304771" duration="6119000" />
+      <workItem from="1578110198702" duration="524000" />
+    </task>
+    <task id="LOCAL-00001" summary="Created man rule for taxes">
+      <created>1576723370422</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576723370422</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Fixed calculation error and unit test">
+      <created>1576891818751</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576891818751</updated>
+    </task>
+    <task id="LOCAL-00003" summary="- Added exception handler&#10;- Added new unit tests&#10;- Added correlation ID">
+      <created>1578095969593</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578095969593</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added some doc">
+      <created>1578097474565</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578097474565</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added image">
+      <created>1578098263780</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578098263781</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added info">
+      <created>1578098348272</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1578098348272</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added new folder layout">
+      <created>1578110473829</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1578110473829</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created man rule for taxes" />
+    <MESSAGE value="Fixed calculation error and unit test" />
+    <MESSAGE value="- Added exception handler&#10;- Added new unit tests&#10;- Added correlation ID" />
+    <MESSAGE value="Added some doc" />
+    <MESSAGE value="Added image" />
+    <MESSAGE value="Added info" />
+    <MESSAGE value="Added new folder layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new folder layout" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="104" y="51" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578110607213">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="104" y="51" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1578110607213" />
+    <state x="104" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.777@0.23.1280.777" timestamp="1576719874838" />
+    <state x="377" y="180" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1578110600918">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="377" y="180" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.800@0.0.1280.800" timestamp="1578110600918" />
+    <state x="361" y="221" width="773" height="579" key="#xdebugger.evaluate" timestamp="1576721987429">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="361" y="221" width="773" height="579" key="#xdebugger.evaluate/0.0.1280.800@0.0.1280.800" timestamp="1576721987429" />
+    <state x="234" y="0" key="CommitChangelistDialog2" timestamp="1578110472597">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="234" y="0" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1578110472597" />
+    <state width="429" height="466" key="DebuggerActiveHint" timestamp="1578095357991">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="429" height="466" key="DebuggerActiveHint/0.0.1280.800@0.0.1280.800" timestamp="1578095357991" />
+    <state width="1238" height="263" key="GridCell.Tab.0.bottom" timestamp="1578099179465">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1578099179465" />
+    <state width="1238" height="263" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1578095330154" />
+    <state width="1238" height="263" key="GridCell.Tab.0.center" timestamp="1578099179463">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1578099179463" />
+    <state width="1238" height="263" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1578095330152" />
+    <state width="1238" height="263" key="GridCell.Tab.0.left" timestamp="1578099179463">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1578099179463" />
+    <state width="1238" height="263" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1578095330150" />
+    <state width="1238" height="263" key="GridCell.Tab.0.right" timestamp="1578099179464">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1578099179464" />
+    <state width="1238" height="263" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1578095330154" />
+    <state width="1238" height="263" key="GridCell.Tab.1.bottom" timestamp="1578099179468">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1578099179468" />
+    <state width="1238" height="263" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1578095340166" />
+    <state width="1238" height="263" key="GridCell.Tab.1.center" timestamp="1578099179466">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1578099179466" />
+    <state width="1238" height="263" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1578095340165" />
+    <state width="1238" height="263" key="GridCell.Tab.1.left" timestamp="1578099179466">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1578099179466" />
+    <state width="1238" height="263" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1578095340164" />
+    <state width="1238" height="263" key="GridCell.Tab.1.right" timestamp="1578099179467">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1578099179467" />
+    <state width="1238" height="263" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1578095340166" />
+    <state width="1238" height="263" key="GridCell.Tab.2.bottom" timestamp="1578099179472">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.2.bottom/0.0.1280.800@0.0.1280.800" timestamp="1578099179472" />
+    <state width="1238" height="263" key="GridCell.Tab.2.center" timestamp="1578099179470">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.2.center/0.0.1280.800@0.0.1280.800" timestamp="1578099179470" />
+    <state width="1238" height="263" key="GridCell.Tab.2.left" timestamp="1578099179469">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.2.left/0.0.1280.800@0.0.1280.800" timestamp="1578099179469" />
+    <state width="1238" height="263" key="GridCell.Tab.2.right" timestamp="1578099179471">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.2.right/0.0.1280.800@0.0.1280.800" timestamp="1578099179471" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1578098350614">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1578098350614" />
+    <state x="319" y="228" key="com.intellij.ide.util.TipDialog" timestamp="1578110199431">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="319" y="228" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1578110199431" />
+    <state x="319" y="244" key="com.intellij.ide.util.TipDialog/0.23.1280.777@0.23.1280.777" timestamp="1576890545932" />
+    <state x="310" y="198" key="git4idea.merge.GitPullDialog" timestamp="1578097949369">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="310" y="198" key="git4idea.merge.GitPullDialog/0.0.1280.800@0.0.1280.800" timestamp="1578097949369" />
+    <state x="34" y="97" key="new project wizard" timestamp="1578098070297">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="34" y="97" key="new project wizard/0.0.1280.800@0.0.1280.800" timestamp="1578098070297" />
+    <state x="347" y="23" key="refactoring.ChangeSignatureDialog" timestamp="1578095239049">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="347" y="23" key="refactoring.ChangeSignatureDialog/0.0.1280.800@0.0.1280.800" timestamp="1578095239049" />
+    <state x="305" y="185" key="run.anything.popup" timestamp="1578092775485">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="185" key="run.anything.popup/0.0.1280.800@0.0.1280.800" timestamp="1578092775485" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jaimedantas/fiitaxcalculator/ultils/CalculationEngine.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/math/BigDecimal.java</url>
+          <line>1693</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
