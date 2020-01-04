@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="fii-tax-calculator-0.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/fii-tax-calculator/target/fii-tax-calculator-0.0.1-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

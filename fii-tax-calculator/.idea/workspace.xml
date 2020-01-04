@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f3cef84-9a38-42b2-a704-b5488a1053fb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/fii-tax-calculator/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/.idea/frontend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +39,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1VBHqemTgFTJh40cxcV8pUuxmzZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -50,6 +52,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -181,6 +184,7 @@
       <workItem from="1577151723841" duration="27000" />
       <workItem from="1578090304771" duration="6119000" />
       <workItem from="1578110198702" duration="524000" />
+      <workItem from="1578110834681" duration="636000" />
     </task>
     <task id="LOCAL-00001" summary="Created man rule for taxes">
       <created>1576723370422</created>
@@ -231,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578110473829</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added new folder layout">
+      <created>1578110911166</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1578110911166</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,14 +272,18 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="361" y="221" width="773" height="579" key="#xdebugger.evaluate/0.0.1280.800@0.0.1280.800" timestamp="1576721987429" />
-    <state x="234" y="0" key="CommitChangelistDialog2" timestamp="1578110472597">
+    <state x="234" y="0" key="CommitChangelistDialog2" timestamp="1578110910684">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="234" y="0" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1578110472597" />
+    <state x="234" y="0" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1578110910684" />
     <state width="429" height="466" key="DebuggerActiveHint" timestamp="1578095357991">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="429" height="466" key="DebuggerActiveHint/0.0.1280.800@0.0.1280.800" timestamp="1578095357991" />
+    <state x="181" y="66" key="DiffContextDialog" timestamp="1578110905786">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="181" y="66" key="DiffContextDialog/0.0.1280.800@0.0.1280.800" timestamp="1578110905786" />
     <state width="1238" height="263" key="GridCell.Tab.0.bottom" timestamp="1578099179465">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
