@@ -1,14 +1,14 @@
-# FII Tax Calculator
+# B3 Tax Calculator
 ![FII Tax Calculator](documentation/images/application.png)
 
 Complete service to calculate taxes from Real Estate Fund [FII](http://www.b3.com.br/en_us/products-and-services/trading/equities/real-estate-investment-funds-fii.htm)
- and Stocks sales in Brazil
+ and Stocks (not released yet) sales in Brazil
 entirely based in microservice.
 This application is able to perform calculations with regards to taxes and 
-profit from a FII transaction in the [B3](http://www.b3.com.br/en_us/)
+profit from FII and Stocks transactions in the [B3](http://www.b3.com.br/en_us/)
 .
 
-This system is up and running in [here](http://jaimedantas.com/fii).
+This system is up and running in [here](http://jaimedantas.com/b3).
 
 
 ##  Index
@@ -29,7 +29,7 @@ This system is up and running in [here](http://jaimedantas.com/fii).
 ## Documentation:
 You can browser through the Swagger documentation for this API in the link below.
 
-`http://jaimedantas.com/fii-api`
+`http://jaimedantas.com/fii`
 
 ## Versioning
 This project uses [GitHub](https://github.com/jaimedantas/fii-tax-calculator) for versioning.
