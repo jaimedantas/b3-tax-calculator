@@ -1,5 +1,5 @@
 # FII Tax Calculator
-![FII Tax Calculator](documentation/images/logo.png)
+![FII Tax Calculator](../documentation/images/logo_small.png)
 
 Microservice to calculate the taxes from [FII](http://www.b3.com.br/en_us/products-and-services/trading/equities/real-estate-investment-funds-fii.htm) sales in Brazil. 
 This application is able to perform calculations with regards to taxes and 
@@ -28,3 +28,13 @@ mvn clean install
 ```
 java -jar fii-tax-calculator-0.0.1-SNAPSHOT.jar
 ```
+## Usege
+
+This microservice will run on port 8081 by default.
+To access the swagger interface, go to:
+```
+http://localhost:8081/swagger-ui.html
+```
+
+![Swagger Interface](../documentation/images/swagger.png)
+
