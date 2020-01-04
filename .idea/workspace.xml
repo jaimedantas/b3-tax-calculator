@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9b2952a-f7b8-45cb-a753-88fa11a5cf0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fii-tax-calculator/fii-tax-calculator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fii-tax-calculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fii-tax-calculator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fii-tax-calculator/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +26,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/images" />
@@ -120,22 +115,34 @@
       <option name="presentableId" value="Default" />
       <updated>1578112426632</updated>
       <workItem from="1578112429366" duration="1508000" />
-      <workItem from="1578114556368" duration="11054000" />
+      <workItem from="1578114556368" duration="11521000" />
     </task>
+    <task id="LOCAL-00001" summary="Added frontend">
+      <created>1578165444782</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578165444783</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added frontend" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added frontend" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="234" y="2" key="CommitChangelistDialog2" timestamp="1578115470555">
+    <state x="205" y="2" key="CommitChangelistDialog2" timestamp="1578165444276">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="234" y="2" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1578115470555" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1578115475696">
+    <state x="205" y="2" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1578165444276" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1578165446685">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1578115475696" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1578165446685" />
     <state x="319" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1578118627904">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
