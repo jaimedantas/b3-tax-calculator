@@ -1,0 +1,18 @@
+  
+language: java
+
+addons:
+  sonarcloud:
+    organization: "jaimedantas"
+    token:
+      secure: f0409d0e03e79b51b482ff81da2d946aa30a6113
+cache:
+  directories:
+  - "$HOME/.cache"
+
+script:
+  - mvn clean compile
+  - mvn test
+
+after_success:
+  - mvn sonar:sonar -Dsonar.projectKey=b3-tax-calculator
