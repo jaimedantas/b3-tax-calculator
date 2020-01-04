@@ -11,7 +11,7 @@ profit from a FII transaction in the [B3](http://www.b3.com.br/en_us/)
 This system is up and running in [here](http://jaimedantas.com/fii).
 
 
-##Index
+## Index
 * [FII Tax Calculator microservice](fii-tax-calculator/README.md)
 * Stock Tax Calculator microservice (in progress..)
 * [Frontend](fii-tax-calculator/README.md)
@@ -35,10 +35,10 @@ You can browser through the Swagger documentation for this API in the link below
 This project uses [GitHub](https://github.com/jaimedantas/fii-tax-calculator) for versioning.
  For the versions available, see the [tags on this repository]().
 
-##Author
+## Author
 * [Jaime Dantas](https://jaimedantas.com/) -  _Initial work, Development, Test, Documentation_
 
 See also the list of [contributors](CONTRIBUTORS.txt) who participated in this project.
 
-##License
+## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
