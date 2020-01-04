@@ -6,13 +6,7 @@ addons:
     organization: "jaimedantas"
     token:
       secure: kFnqGF+x7s1dqdlfTAd+oopJI7Cu5HsV0ryqij+ExlKL1K9QVdylGzBe27mRa8BY60Sn+edm/GMOtijthiey2wm4IwPOouEtzbRNtVXCWg8gEzYdFCCq8Wo9pg6AcMZZlFVs7UIrpWev+7LlI9gJ4JKNmYsIJGuKYMMQ2HosZHEXkJb5VI/Wn36yPoOSHtHSPLp6NqOVgsffN+H8QPRhfUa8rKpmW8U8WuSjEDm346EDmKgYOeFtR9qA/dTLLEUHqWWBA585ox7GQPOllRsVgfZWfNuDdRF2bAYdStueaJlnoEuFYSIs7/xsk4NsX3PX3HIMapPfH20ZxVOWuPFz12JyNVgvhY2njEfAFrSsCFrtYhYGi8FovGUqUKpI+y/47Ze3I9zIBgEAkjBaiKq3asyySTTiwXY2AVTETVr6EhVQXLuVKRJoxF6ReYfBk3VGGHYzch5quGxOTZ9f8DqsgAEhgVUkUG3PVaPLQKPUe3a7/a6BsKcT4j6Gn1wZ0CYwZlLULZbJiF7/MbtAPIj70dNspqei2N7icAn1EgbjRAKrRwXiTgG6MvUtF+jJaAe1CNwoskpdBBdj6Am3yutaVbKwD0Zpa36BQJKpQ8b0qIssJek2RXWciNomNdc+mcR5egYqFXJ7KFcaNg6ArBHFy66XE1giRHBjML26eyu8mfk=
-cache:
-  directories:
-  - "$HOME/.cache"
-
 script:
-  - mvn clean compile
-  - mvn test
+  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar -Dsonar.projectKey=b3-tax-calculator
 
-after_success:
-  - mvn sonar:sonar -Dsonar.projectKey=b3-tax-calculator
+
