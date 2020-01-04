@@ -1,6 +1,11 @@
 # B3 Tax Calculator
 ![FII Tax Calculator](documentation/images/application.png)
 
+[![Build Status](https://travis-ci.org/jaimedantas/b3-tax-calculator.svg?branch=master)](https://travis-ci.org/jaimedantas/b3-tax-calculator)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=b3-tax-calculator&metric=alert_status)](https://sonarcloud.io/dashboard?id=b3-tax-calculator)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=b3-tax-calculator&metric=coverage)](https://sonarcloud.io/dashboard?id=b3-tax-calculator)
+
+
 Complete service to calculate taxes from Real Estate Fund [FII](http://www.b3.com.br/en_us/products-and-services/trading/equities/real-estate-investment-funds-fii.htm)
  and Stocks (not released yet) sales in Brazil
 entirely based in microservice.
