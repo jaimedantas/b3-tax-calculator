@@ -1,7 +1,0 @@
-
-zsquid:UselessImportCheck"ORemove this unused import 'org.springframework.web.context.request.WebRequest'.(Аніп8Ђѓянц-
-Кsquid:UselessImportCheck"_Remove this unused import 'org.springframework.http.converter.HttpMessageNotReadableException'.(х°ъЄ8Ђѓянц-
-Usquid:S3416"7Update this logger to use "RestExceptionHandler.class".(иЈек8»Лјнц-
-msquid:UselessImportCheck"BRemove this unused import 'javax.servlet.http.HttpServletRequest'.(ш©єЕ8ћ»ўнц-
-bsquid:S2387"D"logger" is the name of a field in "ResponseEntityExceptionHandler".(иЈек8€т»нц-
-qsquid:UselessImportCheck"ARemove this unused import 'org.springframework.http.HttpHeaders'.(гЯс„ъ€€€€8Ђѓянц-
