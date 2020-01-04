@@ -4,15 +4,17 @@ This application is able to perform calculations with regards to taxes and
 profit from a FII transaction in the [B3](http://www.b3.com.br/en_us/)
 .
 
+This microservice is up and running in `http://jaimedantas.com/fii`.
+
 ###### Tecnologies:
 * Spring Boot
 * Swagger
-* JUnit
+* JUnit 
 
 ## Documentation:
-You can browser through the documentation for this API using Swagger:
+You can browser through the Swagger documentation for this API in the link below.
 
-`http://localhost:8081/swagger-ui.html`
+`http://jaimedantas.com/fii`
 
 
 ## Build:
