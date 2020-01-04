@@ -1,0 +1,11 @@
+language: java
+
+addons:
+  sonarcloud:
+    organization: "jaimedantas"
+    token:
+      secure: "deKJSGCpVLJiq3cnp2+LAXTQxLoljPg3gVV7cpw7VYQUWgwsg8vFJ6lkVJakY/ol1jQ92Z8Z2hS+to5Nfzc9jAocLki1CcJOHDxUZasDHi7YYmcaa7GqX/UhjBxndHooa37YW7THGRT8Wr9B8v2QXnKGNu6t2SX1Uf1CWjrZPkpnCnj5FFu6e2N8FfPXwqH7rs5ecKMIztmkhFuIHjaRlHZI1PFYNKiWYUyCjcN8KAn4Ru7ZUxHs3fAnu/Px0FazUynYZRAyewS3KoRnejYpLj/rhrNyBHVDPZcSbmASMpCnmQQdLKZrcpXK7hILVed79J5kCrnqX9sgSxa2nngQESKdi+XgOPcd3OhQ9W1p/o8A8FP5D9BHyi6B/351RWP8tDL0t9NHCMM9t+zZMxb0nSwiC7/D2lRQzOrdCrltISJ81Xnuye5S4KALD1lqejThKIEfXWYMgf6sFTFVP6i5n6L6oaIPqmblpMp8lmWFhpxDfrJKG12TbSHHrmTcoIH/CHMsig8NGtCD/A76z9/68F9EeUBRjS6BXala88FUpBRDBUfGOlV0I1w5l7sL/A1YGR2Pvhn9MUBM7wqzsU/GXfinvEdDhvfYGmO4YVq5LToutS4VTBmYhiTVV+/XbiJqksm/Fvf6MFi/8UaZXpEPWGsEA0UpbCNT3F/fP8wqFtI=" # encrypted value of your token
+
+script:
+  # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
+  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar -Dsonar.projectKey=b3-tax-calculator
