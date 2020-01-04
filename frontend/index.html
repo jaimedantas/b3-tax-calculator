@@ -1,7 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8" />
+
+    <meta name=”keywords” content="Taxa de DARF FII, Imposto de Fundo Imobiliario, Real Estate Fund, DARF de FII, Jaime Dantas"/>
+    <meta name="description" content="Tax calculator for Real Estate Funds (FII) in the B3 (Brazil)">
+        <meta name="author" content="Jaime Cristalino Jales Dantas">
+
     <title>FII Tax Calculator</title>
     <style>
         form {
@@ -132,7 +137,7 @@
         let totalValueSoldValue = document.getElementById('totalValueSold').value;
 
 
-        fetch('http://192.168.15.20:8081/tax/fii', {
+        fetch('http://jaimedantas.ddns.net:8081/tax/fii', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
