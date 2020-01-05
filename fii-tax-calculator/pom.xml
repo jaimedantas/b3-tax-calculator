@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.jaimedantas</groupId>
 	<artifactId>fii-tax-calculator</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>fii-tax-calculator</name>
 	<description>Tax calculator for FII in Brazil</description>
 
@@ -58,6 +58,12 @@
 					<artifactId>junit-vintage-engine</artifactId>
 				</exclusion>
 			</exclusions>
+		</dependency>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
 		</dependency>
 
 	</dependencies>

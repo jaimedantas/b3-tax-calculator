@@ -13,7 +13,7 @@ This application is able to perform calculations with regards to taxes and
 profit from FII and Stocks transactions in the [B3](http://www.b3.com.br/en_us/)
 .
 
-This system is up and running in [here](http://jaimedantas.com/b3).
+This system is up and running [here](http://jaimedantas.com/b3).
 
 
 ##  Index
@@ -21,7 +21,7 @@ This system is up and running in [here](http://jaimedantas.com/b3).
 * Stock Tax Calculator microservice (in progress..)
 * [Frontend](fii-tax-calculator/README.md)
 
-#### Tecnologies:
+#### Tecnologies
 ###### Backend:
 * Spring Boot 2.2.2
 * Swagger 2
@@ -31,17 +31,17 @@ This system is up and running in [here](http://jaimedantas.com/b3).
 * HTML 5
 * JavaScript
 
-## Documentation:
+## Documentation
 You can browser through the Swagger documentation for this API in the link below.
 
 `http://jaimedantas.com/fii`
 
 ## Versioning
 This project uses [GitHub](https://github.com/jaimedantas/fii-tax-calculator) for versioning.
- For the versions available, see the [tags on this repository]().
+ For the versions available, see the [tags on this repository](https://github.com/jaimedantas/b3-tax-calculator/tags).
 
 ## Author
-* [Jaime Dantas](https://jaimedantas.com/) -  _Initial work, Development, Test, Documentation_
+* [Jaime Dantas](https://jaimedantas.com/) -  _Initial work, development, test, documentation_
 
 See also the list of [contributors](CONTRIBUTORS.txt) who participated in this project.
 

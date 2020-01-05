@@ -22,8 +22,8 @@ class TaxCalculatorTest {
         fiiData.setTotalValueSold(new BigDecimal("3013.71"));
 
         BigDecimal expectedTotalProfitPercentage = new BigDecimal("0.34");
-        BigDecimal expectedTotalProfitValue = new BigDecimal("713.55");
-        BigDecimal expectedTDarf = new BigDecimal("178.39");
+        BigDecimal expectedTotalProfitValue = new BigDecimal("712.66");
+        BigDecimal expectedTDarf = new BigDecimal("178.17");
 
 
         TaxCalculator taxCalculator = new TaxCalculator();
@@ -44,12 +44,13 @@ class TaxCalculatorTest {
         fiiData.setQuantityBought(47);
         fiiData.setQuantitySold(47);
         fiiData.setSoldPriceUnit(new BigDecimal("138.99"));
-        fiiData.setTotalValueBought(new BigDecimal("5168.59"));
+        fiiData.setTotalValueBought(new BigDecimal("5295.93"));
         fiiData.setTotalValueSold(new BigDecimal("6532.53"));
 
-        BigDecimal expectedTotalProfitPercentage = new BigDecimal("0.21");
-        BigDecimal expectedTotalProfitValue = new BigDecimal("1089.64");
-        BigDecimal expectedTDarf = new BigDecimal("272.41");
+        BigDecimal expectedTotalProfitPercentage = new BigDecimal("0.19");
+        BigDecimal expectedTotalProfitValue = new BigDecimal("985.82");
+        //darf xpml: 246.93
+        BigDecimal expectedTDarf = new BigDecimal("246.46");
 
 
         TaxCalculator taxCalculator = new TaxCalculator();
