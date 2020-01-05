@@ -3,9 +3,9 @@
 
 Frontend of the [B3 Tax Calculator](../README.md).
 
-This service is up and running in [here](http://jaimedantas.com/b3).
+This service is up and running [here](http://jaimedantas.com/b3).
 
-###### Tecnologies:
+###### Tecnologies
 * HTML 5
 * JavaScript
 
