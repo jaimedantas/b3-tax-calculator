@@ -21,6 +21,10 @@ public class CalculationEngine {
         return add(add(arg1, arg2, arg3), arg4);
     }
 
+    public static BigDecimal add(BigDecimal arg1, BigDecimal arg2, BigDecimal arg3, BigDecimal arg4, BigDecimal arg5){
+        return add(add(arg1, arg2, arg3, arg4), arg4, arg5);
+    }
+
     public static BigDecimal subtract(BigDecimal arg1, BigDecimal arg2){
         return arg1.subtract(arg2).setScale(2, RoundingMode.HALF_UP);
     }
